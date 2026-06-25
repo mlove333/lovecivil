@@ -259,14 +259,14 @@ header {
     animation: fade-in 1200ms 800ms backwards;
 }
 
+header p {
+   color: #8d99ae
+}
+
 header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-header p {
-    color: #8d99ae;
 }
 
 .header--left {
@@ -309,6 +309,7 @@ header p {
 
 #about ul {
     list-style-type: disc;
+    color: #fff;
 }
 
 .about__img {
@@ -331,7 +332,7 @@ header p {
 
 .about__description--para {
     margin: 16px 0;
-    color: #fff;
+    color: #8d99ae;
     font-size: 20px;
     text-align: left;
 
@@ -579,6 +580,11 @@ CONTACT US
     display: flex;
     align-items: center;
 }
+
+.contact__para {
+    padding-top: 20px;
+}
+
 /*
 
 FOOTER
