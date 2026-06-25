@@ -299,6 +299,10 @@ header .row {
     justify-content: center;
 }
 
+.about__title {
+    font-size: 40px;
+}
+
 .about--left {
     width: 40%;
     display: flex;
