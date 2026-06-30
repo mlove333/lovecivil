@@ -644,6 +644,39 @@ footer {
     transform: translateX(60px);
     opacity: 1;
 }
+
+/*
+
+IMPORTANT LINKS
+
+*/
+
+#important-links .section__title {
+    text-align: center;
+}
+
+.city__websites {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: color 300ms ease;
+}
+
+.city__websites a:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.city__websites--2, .city__websites--3, .city__websites--4 {
+    padding-top: 24px;
+}
+
+.city__websites--4 {
+    padding-bottom: 40px;
+}
+
 /*
 
 MEDIA
