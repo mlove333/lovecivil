@@ -68,7 +68,7 @@ h1 {
 .section__para {
     font-size: 18px;
     font-weight: 500;
-    color: #8d99ae;
+    color: #C6CDDA;
     line-height: 1.625;
 }
 
@@ -260,7 +260,7 @@ header {
 }
 
 header p {
-   color: #8d99ae
+   color: #C6CDDA
 }
 
 header .row {
@@ -336,7 +336,7 @@ header .row {
 
 .about__description--para {
     margin: 16px 0;
-    color: #8d99ae;
+    color: #C6CDDA;
     font-size: 20px;
     text-align: left;
 
@@ -431,7 +431,7 @@ CONTACT US
     display: flex;
 }
 #contact-us h4 {
-    color: #8d99ae;
+    color: #C6CDDA;
     font-size: 20px;
     font-style: italic;
 }
@@ -653,6 +653,7 @@ IMPORTANT LINKS
 
 #important-links .section__title {
     text-align: center;
+    animation: fade-in 1200ms 800ms backwards;
 }
 
 .city__websites {
@@ -662,6 +663,7 @@ IMPORTANT LINKS
     justify-content: center;
     gap: 20px;
     transition: color 300ms ease;
+    animation: fade-in 1500ms 1200ms backwards;
 }
 
 .city__websites a:hover {
@@ -772,6 +774,10 @@ MEDIA
         width: 80px;
     }
 
+    #important-links span {
+        display: none;
+    }
+
     
 
 
@@ -790,6 +796,15 @@ MEDIA
     .direct-contact-container {
         max-width: 400px;
     }
+
+    #important-links .section__title {
+        font-size: 35px;
+    }
+
+    #about .section__title {
+        text-align: left;
+    }
+
 }
 
 @media screen and (max-width: 569px) {
@@ -821,7 +836,7 @@ MEDIA
     }
 
     #about ul {
-        list-style: none;
+      text-align: left;
     }
 
     #about .section__para {
@@ -864,6 +879,16 @@ MEDIA
 
      .footer__links {
         flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .city__links {
+        flex-direction: column;
+    }
+
+    #important-links .section__title {
+        font-size: 25px;
     }
 
 }
