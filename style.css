@@ -829,6 +829,10 @@ MEDIA
         width: 100%;
     }
 
+     .footer__links {
+        flex-wrap: wrap;
+    }
+
 }
 
 @media(max-width: 640px) {
@@ -880,6 +884,10 @@ MEDIA
 
     .contact__para {
         padding-top: 20px;
+    }
+
+     .footer__links {
+        flex-wrap: wrap;
     }
 
 }
